@@ -4,6 +4,9 @@ An AI-powered matchmaking platform that pairs hackers based on technical skills,
 
 ### 🎥 [Watch the 2-Minute Demo Video](INSERT_YOUR_VIDEO_LINK_HERE) | 🌐 [Live Demo Link](https://v0-hackmatch-proximity-feature.vercel.app/)
 
+## 🛠️ System Architecture
+
+![System Architecture Diagram](https://claude.ai/public/artifacts/f40e5d19-dde6-4f52-81a6-07f298cf295a)
 ---
 
 ## 💡 The Core Idea
