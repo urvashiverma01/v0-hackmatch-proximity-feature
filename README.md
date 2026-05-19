@@ -6,7 +6,7 @@ An AI-powered matchmaking platform that pairs hackers based on technical skills,
 
 ## 🛠️ System Architecture
 
-![System Architecture Diagram](https://claude.ai/public/artifacts/f40e5d19-dde6-4f52-81a6-07f298cf295a)
+[System Architecture Diagram](https://claude.ai/public/artifacts/f40e5d19-dde6-4f52-81a6-07f298cf295a)
 ---
 
 ## 💡 The Core Idea
