@@ -21,4 +21,8 @@ An AI-powered matchmaking platform that pairs hackers based on technical skills,
 ## 🛠️ Tech Stack
 * **Frontend & Core Logic:** Next.js, React, Tailwind CSS, Shadcn UI (Built using v0 by Vercel)
 * **State Management & Matching:** Client-side React State (Mock AI Matchmaking data optimized for prototype demonstration)
-*
+
+## 👥 Our Team
+* **Urvashi Verma** (@urvashiverma01) - Team Lead & Frontend Developer
+* **Ayushi Sharma** (@ayushisharma-22) - Developer / Designer
+* **Somya Rajak** (@somyarajak723-stack) - Pitch / Research
