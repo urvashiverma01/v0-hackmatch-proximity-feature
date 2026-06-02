@@ -25,4 +25,3 @@ An AI-powered matchmaking platform that pairs hackers based on technical skills,
 ## 👥 Our Team
 * **Urvashi Verma** (@urvashiverma01) - Team Lead & Frontend Developer
 * **Ayushi Sharma** (@ayushisharma-22) - Developer / Designer
-* **Somya Rajak** (@somyarajak723-stack) - Pitch / Research
