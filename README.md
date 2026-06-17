@@ -2,7 +2,7 @@
 
 An AI-powered matchmaking platform that pairs hackers based on technical skills, work styles, and project interests to build perfectly balanced, cross-functional teams.
 
-### 🎥 [Watch the 2-Minute Demo Video](VID_20260526201918(1)(1).mp4) | 🌐 [Live Demo Link](https://v0-hackmatch-proximity-feature.vercel.app/)
+### 🎥 [Watch the 2-Minute Demo Video](https://cdn-useast1.kapwing.com/VID_20260526201918_1_1_-9hMTi6CdAYd_5Y.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1781747259&Signature=WIzD3vlyvUEcy%2Bc2139a5cerjqYNvPpiB0V7u69sEem5jmsaESmyBM1PzDxD%2FXvTkXWSMwNAh31uagutVFcp5%2FKrtpHcV8dbnQQG5uCw0ciPRlMY2bdzkaWH%2FfrBXSXFp4QpISAJI9WIQ%2BtjXoXkOqgkCZrZiK%2F4smP4QMBelnQUwzi%2FHtNOtQHkZDWfOFERoHj3lkl%2FqvQlBT%2BXQZ0Q%2BCUzvaaYgRWQoto8GxCHfPYGcRvANODfgzFJgn4Hbr2a%2Bm7aTWcHju887j%2FmM1xyqk2rhlKfq3eiajSQ%2BGheP8scweyhL0BbpAmBBOIi7gCrjUfcAzYa1R%2BKl9IPxN5R8Q%3D%3D) | 🌐 [Live Demo Link](https://v0-hackmatch-proximity-feature.vercel.app/)
 
 ## 🛠️ System Architecture
 
