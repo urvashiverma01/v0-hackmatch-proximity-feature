@@ -59,3 +59,43 @@ export async function POST(req: Request) {
     return Response.json({ error: 'Server error' }, { status: 500 });
   }
 }
+import { connectDB } from '@/lib/mongodb';
+import User from '@/models/User';
+
+function compatibilityScore(userA: any, userB: any) {
+  let score = 0;
+  const skillMatch = userA.skills?.filter(
+    (s: string) => userB.skills?.includes(s)).length || 0;
+  score += (skillMatch / Math.max(userA.skills?.length || 1, 1)) * 40;
+
+  const interestMatch = userA.interests?.filter(
+    (i: string) => userB.interests?.includes(i)).length || 0;
+  score += (interestMatch / Math.max(userA.interests?.length || 1, 1)) * 35;
+
+  if (userA.availability === userB.availability) score += 25;
+  return Math.round(score);
+}
+
+export async function POST(req: Request) {
+  try {
+    await connectDB();
+    const { userId } = await req.json();
+
+    const currentUser = await User.findById(userId);
+    if (!currentUser) return Response.json(
+      { error: 'User not found' }, { status: 404 });
+
+    const allUsers = await User.find({ _id: { $ne: userId } });
+    const matches = allUsers
+      .map(u => ({ 
+        user: u, 
+        score: compatibilityScore(currentUser, u) 
+      }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 10);
+
+    return Response.json({ matches });
+  } catch (err) {
+    return Response.json({ error: 'Server error' }, { status: 500 });
+  }
+}
