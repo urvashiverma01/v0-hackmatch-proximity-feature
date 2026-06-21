@@ -1,0 +1,9 @@
+app/
+  api/
+    auth/
+      register/route.ts
+      login/route.ts
+    users/
+      route.ts
+    match/
+      route.ts
